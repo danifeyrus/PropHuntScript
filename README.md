@@ -1,4 +1,4 @@
-@"
+
 # Prop Hunt: Astralis
 
 A fully script-driven Prop Hunt minigame built for **Minecraft Bedrock Edition**, coded entirely in TypeScript using the official Minecraft Script API.
