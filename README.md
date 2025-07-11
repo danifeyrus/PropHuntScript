@@ -27,7 +27,7 @@ When players join the world:
 
 ### Player Initialization
 
-\`\`\`ts
+```
 system.runInterval(() => {
   for (const player of world.getPlayers()) {
     if (!teleportedPlayers.has(player.name)) {
@@ -42,13 +42,13 @@ system.runInterval(() => {
     }
   }
 });
-\`\`\`
+```
 
 ---
 
 ### Admin Compass UI
 
-\`\`\`ts
+```
 function openAdminUI(player: Player) {
   new ActionFormData()
     .title("Prop Hunt Setup")
@@ -60,7 +60,7 @@ function openAdminUI(player: Player) {
       // handle selection
     });
 }
-\`\`\`
+```
 
 Admin uses compass to:
 - Choose from 3 maps:
@@ -90,7 +90,7 @@ Admin uses compass to:
 
 ## Project Structure
 
-\`\`\`
+```
 PropHunt/
 ├─ behavior_packs/
 ├─ resource_packs/
@@ -102,7 +102,7 @@ PropHunt/
 ├─ .gitignore
 ├─ package.json
 ├─ tsconfig.json
-\`\`\`
+```
 
 ---
 
