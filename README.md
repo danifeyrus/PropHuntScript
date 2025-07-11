@@ -106,25 +106,6 @@ PropHunt/
 
 ---
 
-## Requirements
-
-- Minecraft Bedrock Edition with scripting enabled
-- Node.js + TypeScript installed
-- Visual Studio Code (recommended)
-
----
-
-## How to Run
-
-1. Clone the repository
-2. Run \`npm install\` to install dependencies
-3. Run \`npm run build\` to compile TypeScript to JavaScript
-4. Import \`behavior_packs/\` and \`resource_packs/\` into your Minecraft world folder
-5. Launch the world
-6. First player becomes admin, receives compass, and configures the match
-
----
-
 ## About the Author
 
 This mod was created by **@danifeyrus** as part of a Minecraft scripting portfolio.
