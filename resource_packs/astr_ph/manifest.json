@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Prop Hunt",
+    "description": "TypeScript Starter",
+    "uuid": "67aba1b3-24ad-48c8-949f-d5c7731ee025",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "description": "My Resource Pack",
+      "type": "resources",
+      "uuid": "b43252fc-c947-4da7-998a-094b0f283f49",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0390f5b2-3beb-401e-a0d5-96f2b27fcd0b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.11.1"
+      ]
+    }
+  }
+}

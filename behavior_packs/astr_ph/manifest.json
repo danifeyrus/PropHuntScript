@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Prop Hunt: Astralis",
+    "description": "Prop Hunt Mini-Game by Astralis",
+    "uuid": "0390f5b2-3beb-401e-a0d5-96f2b27fcd0b",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "b857428e-d18c-4a87-8782-ca7682fa7e52",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": [2, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [2, 0, 0]
+    },
+    {
+      "uuid": "67aba1b3-24ad-48c8-949f-d5c7731ee025",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": ["0.11.1"]
+    }
+  }
+}
